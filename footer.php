@@ -1,7 +1,7 @@
 <div class="footer-block">
     <div class="leave-an-order-block">
       <h1 class="leave-an-order-block__text">оставьте заявку на поддержку сайта</h1>
-      <div class="leave-an-order-block__arrow"><img src="./assets/img/Arrow.svg"></img></div>
+      <div class="leave-an-order-block__arrow"><img src="<?php echo get_template_directory_uri()?>/assets/img/Arrow.svg"></img></div>
     </div>
     <div class="footer-content">
       <div class="footer-grid">
