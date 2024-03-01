@@ -55,7 +55,7 @@ class BenefitsPostTypeClass{
         //Проверю позже, будет ли срабатывать, если не указывать сию функцию в каждом следующем посту. Если не будет - вынесу в отдельный файл, следуя SRP.
         //wp_die('post is ' . json_encode($_POST));
         //$meta_url = get_post_meta( $post_id, 'icon-blyat', true);
-        $image_url = $_POST['icon-blyat'];
+        /*$image_url = $_POST['icon-blyat'];
         $attachment_id = attachment_url_to_postid( $image_url );
         $img = wp_get_attachment_image_src( $attachment_id, 'full' );
         wp_die('img is ' . $img . '; image_url is ' . $image_url);
@@ -71,8 +71,8 @@ class BenefitsPostTypeClass{
             }
             else {
                 wp_die("Требуется иконка в .svg формате.");
-            }
-        }
+            }*
+        }*/
     }
 
     function add_columns($columns){
