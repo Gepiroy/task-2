@@ -6,7 +6,7 @@ $benefit_endpoint = new RestGetAllEndpointClass('abilities');
 $benefit_endpoint->add_actions();
 $benefit_endpoint = new RestGetAllEndpointClass('subscriptions');
 $benefit_endpoint->add_actions();
-$benefit_endpoint = new RestGetAllEndpointClass('projects');
+$benefit_endpoint = new RestGetAllEndpointClass('project');
 $benefit_endpoint->add_actions();
 $benefit_endpoint = new RestGetAllEndpointClass('technologies');
 $benefit_endpoint->add_actions();
